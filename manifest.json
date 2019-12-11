@@ -1,0 +1,26 @@
+  {
+    "name": "Gears eSports Skin AutoClicker",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+  		"default_title": "Gears eSports Skin AutoClicker",
+  		"default_popup": "popup.html"
+	},
+//	"icons": { "16": "icon16.png",
+//           "48": "icon48.png",
+//          "128": "icon128.png" }, icons in case you want to make it fancier
+    "content_scripts": [
+        {
+        "matches": [
+            "http://live.gearsofwar.com/*",
+            "https://live.gearsofwar.com/*"
+            ],
+        "js": ["content.js"],
+        "run_at": "document_end" 
+        }
+    ],
+
+	"permissions": [
+    "storage"
+ 	]
+  }
