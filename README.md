@@ -5,3 +5,6 @@ This extension will auto-claim for you the skins given at https://live.gearsofwa
 ## How to install
 You can download everything as a zip file. After that, just unzip it and go to the [chrome://extensions/](chrome://extensions/) page.
 Then, enable "Developer Mode" and click the "load unpacked extension" button, and select the folder with all the files inside. 
+
+## Limitations
+At the moment, the extension will work only with the simple "click here to claim" rewards, and it wont work with retweet rewards or anything else. 
